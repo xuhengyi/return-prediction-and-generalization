@@ -1,0 +1,53 @@
+# Private course data and personal assignment artifacts
+/config.json
+/report.md
+/交付说明.md
+/Project1_export/
+/outputs/
+/reproduced_outputs/
+/smoke_outputs/
+/submission/
+/*.zip
+/A[0-9]*_*
+/scripts/finalize.py
+/scripts/render_zh_translation.py
+/findings.md
+/progress.md
+/task_plan.md
+
+# Private video production files (kept locally)
+/src/video.py
+/scripts/add_voiceover.py
+/scripts/build_video.py
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.srt
+*.vtt
+
+# Data, generated documents, release archives, and credentials
+/dist/
+*.csv
+*.xlsx
+*.parquet
+*.pdf
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local environments and build cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
